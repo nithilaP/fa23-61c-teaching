@@ -1,12 +1,13 @@
 import React from "react";
-import pic from "../res/headshot.png";
+import headshot from "../res/headshot.png";
 import "../styles/Nav.css";
 
 export default function Nav() {
   return (
     <div className="sidebar-container">
       <div className="pfp-container">
-        <img className="pfp" alt="pfp pic" src={pic}></img>
+        <div className="switch">
+        </div>
       </div>
       <div className="divider"></div>
       <div className="title-container">
@@ -21,13 +22,13 @@ export default function Nav() {
             <a className="link" href="https://cs61a.org/" target="_blank">Course Website</a>
         </div>
         <div className="link-div">
-            <a className="link" href="/">Piazza</a>
+            <a className="link" href="/">Ed???</a>
         </div>
         <div className="link-div">
-            <a className="link" href="/">Attendance</a>
+            <a className="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Attendance</a>
         </div>
         <div className="link-div">
-            <a className="link" href="/">Feedback</a>
+            <a className="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Feedback</a>
         </div>
       </div>
       <div className="times-container">

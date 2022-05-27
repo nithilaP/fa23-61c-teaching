@@ -28,6 +28,19 @@
     margin-bottom: 10px;
   }
 
+  .switch {
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+    background: url('../res/headshot.png');
+  }
+  .switch:hover {
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+    background: url('../res/tongueout.png');
+  }
+
   .title-container {
     margin-bottom: 10px;
   }
