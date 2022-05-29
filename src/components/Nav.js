@@ -1,5 +1,4 @@
 import React from "react";
-import headshot from "../res/headshot.png";
 import "../styles/Nav.css";
 
 export default function Nav() {
@@ -14,7 +13,7 @@ export default function Nav() {
           <div className="name-div">
               <h1 className="name"> Aditya Balasubramanian</h1>
           </div>
-          <p className="email"> aditbala@berkeley.edu</p>
+          <p className="email"> aditbala [at] berkeley [dot] edu</p>
           <h5 className="position"> Summer 2022 CS 61A uGSI </h5> 
       </div>
       <div className="navbar">
@@ -25,10 +24,10 @@ export default function Nav() {
             <a className="link" href="/">Ed???</a>
         </div>
         <div className="link-div">
-            <a className="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Attendance</a>
+            <a className="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Attendance</a>
         </div>
         <div className="link-div">
-            <a className="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Feedback</a>
+            <a className="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Feedback</a>
         </div>
       </div>
       <div className="times-container">

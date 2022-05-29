@@ -24,18 +24,18 @@ export default function Body() {
               <p className="week">
                 lab 00: getting started (optional; no session)
               </p>
-              <button className="button"> assignment </button>
-              <button className="button"> solution </button>
+              <a className="button"> assignment </a>
+              <a className="button"> solution </a>
             </div>
             <div className="wrapper">
               <p className="week"> disc 00: getting started </p>
-              <button className="button"> assignment </button>
-              <button className="button"> solution </button>
+              <a className="button"> assignment </a>
+              <a className="button"> solution </a>
             </div>
             <div className="wrapper">
               <p className="week"> slides 00: </p>
-              <button className="button slides"> html </button>
-              <button className="button slides"> pdf </button>
+              <a href="https://adit-bala.github.io/CS61A-slides/su22/disc00" target="_blank" class="button slides">html</a>
+              <a className="button slides"> pdf </a>
             </div>
           </div>
           
