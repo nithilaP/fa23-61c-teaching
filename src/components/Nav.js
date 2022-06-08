@@ -18,16 +18,16 @@ export default function Nav() {
       </div>
       <div className="navbar">
         <div className="link-div">
-            <a className="link" href="https://cs61a.org/" target="_blank">Course Website</a>
+            <a className="link" href="https://cs61a.org/" target="_blank" rel="noreferrer">Course Website</a>
         </div>
         <div className="link-div">
-            <a className="link" href="/">Ed???</a>
+            <a className="link" href="/" rel="noreferrer">Ed???</a>
         </div>
         <div className="link-div">
-            <a className="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Attendance</a>
+            <a className="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer">Attendance</a>
         </div>
         <div className="link-div">
-            <a className="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Feedback</a>
+            <a className="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer">Feedback</a>
         </div>
       </div>
       <div className="times-container">

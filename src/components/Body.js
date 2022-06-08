@@ -34,8 +34,8 @@ export default function Body() {
             </div>
             <div className="wrapper">
               <p className="week"> slides 00: </p>
-              <a href="https://adit-bala.github.io/CS61A-slides/su22/disc00" target="_blank" class="button slides">html</a>
-              <a className="button slides"> pdf </a>
+              <a href="https://slides.aditbala.com/su22/disc00" target="_blank" class="button slides" rel="noreferrer">html</a>
+              <a href="https://slides.aditbala.com/su22/disc00.pdf" target="_blank" class="button slides" rel="noreferrer">pdf</a>
             </div>
           </div>
           
