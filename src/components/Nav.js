@@ -21,7 +21,7 @@ export default function Nav() {
             <a className="link" href="https://cs61a.org/" target="_blank" rel="noreferrer">Course Website</a>
         </div>
         <div className="link-div">
-            <a className="link" href="/" rel="noreferrer">Ed???</a>
+            <a className="link" href="https://piazza.com/class/l3b5tbgw9il4kj" rel="noreferrer">Piazza</a>
         </div>
         <div className="link-div">
             <a className="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer">Attendance</a>
@@ -31,8 +31,8 @@ export default function Nav() {
         </div>
       </div>
       <div className="times-container">
-        <p className="times"> Labs: </p>
-        <p className="times"> Discussions: </p>
+        <p className="times"> Labs: M/W 9:30-10:30  AM @ <b>Soda 330</b> </p>
+        <p className="times"> Disc: Tu/Th 1:00-2:30PM @ <b>Soda 306</b> </p>
       </div>
     </div>
   );
