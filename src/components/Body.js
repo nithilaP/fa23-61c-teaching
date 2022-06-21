@@ -24,12 +24,12 @@ export default function Body() {
               <p className="week">
                 lab 00: getting started (optional; no session)
               </p>
-              <a className="button"> assignment </a>
+              <a href="https://cs61a.org/lab/lab00/" target="_blank" className="button" rel="noreferrer"> assignment </a>
               <a className="button"> solution </a>
             </div>
             <div className="wrapper">
               <p className="week"> disc 00: getting started </p>
-              <a className="button"> assignment </a>
+              <a href="https://cs61a.org/disc/disc00/" target="_blank" className="button" rel="noreferrer"> assignment </a>
               <a className="button"> solution </a>
             </div>
             <div className="wrapper">
