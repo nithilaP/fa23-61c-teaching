@@ -22,7 +22,7 @@ export default function Body() {
             <p className="current-week"> week 1: 6/21 - 6/24 </p>
             <div className="wrapper">
               <p className="week">
-                lab 00: getting started (optional; no session)
+                lab 00: getting started
               </p>
               <a href="https://cs61a.org/lab/lab00/" target="_blank" className="button" rel="noreferrer"> assignment </a>
               <a className="button"> solution </a>
