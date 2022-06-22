@@ -24,15 +24,13 @@ export default function Nav() {
             <a className="link" href="https://piazza.com/class/l3b5tbgw9il4kj" rel="noreferrer">Piazza</a>
         </div>
         <div className="link-div">
-            <a className="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noreferrer">Attendance</a>
-        </div>
-        <div className="link-div">
             <a className="link" href="https://docs.google.com/forms/d/e/1FAIpQLSefWVPJbJdIx-04gaA_fNsMvUo6Nw6cZ5U8P5AopHfdND4iEg/viewform" target="_blank" rel="noreferrer">Feedback</a>
         </div>
       </div>
       <div className="times-container">
         <p className="times"> Labs: M/W 9:30-11:00  AM @ <b>Soda 330</b> </p>
         <p className="times"> Disc: Tu/Th 1:00-2:30PM @ <b>Soda 306</b> </p>
+        <p className="times"> Office Hours: <b>TBD</b> </p>
       </div>
     </div>
   );
