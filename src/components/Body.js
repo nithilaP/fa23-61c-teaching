@@ -84,8 +84,14 @@ export default function Body() {
             </div>
             <div className="wrapper">
               <p className="week"> disc 01: Variables and Functions, Control </p>
-              <a className="button"> attendance </a>
-              <a className="button">
+              <a href="https://forms.gle/JTQSuP9PVVGNY58u7"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"> attendance </a>
+              <a href="https://cs61a.org/disc/disc01/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer">
                 {" "}
                 assignment{" "}
               </a>
