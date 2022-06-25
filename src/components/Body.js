@@ -31,14 +31,18 @@ export default function Body() {
                 {" "}
                 assignment{" "}
               </a>
-              <a className="button"> solution </a>
             </div>
             <div className="wrapper">
               <p className="week"> disc 00: getting started </p>
-              <a href="https://tinyurl.com/adit-welcome"
+              <a
+                href="https://tinyurl.com/adit-welcome"
                 target="_blank"
                 className="button slides"
-                rel="noreferrer"> attendance </a>
+                rel="noreferrer"
+              >
+                {" "}
+                attendance{" "}
+              </a>
               <a
                 href="https://cs61a.org/disc/disc00/"
                 target="_blank"
@@ -48,10 +52,15 @@ export default function Body() {
                 {" "}
                 assignment{" "}
               </a>
-              <a href="https://cs61a.org/disc/sol-disc00/"
+              <a
+                href="https://cs61a.org/disc/sol-disc00/"
                 target="_blank"
                 className="button"
-                rel="noreferrer"> solution </a>
+                rel="noreferrer"
+              >
+                {" "}
+                solution{" "}
+              </a>
             </div>
             <div className="wrapper">
               <p className="week"> slides 00: </p>
@@ -76,26 +85,36 @@ export default function Body() {
             <div className="wrapper">
               <p className="week">lab 01: Variables and Functions, Control </p>
               <a className="button"> attendance </a>
-              <a className="button">
-                {" "}
-                assignment{" "}
-              </a>
+              <a className="button"> assignment </a>
               <a className="button"> solution </a>
             </div>
             <div className="wrapper">
-              <p className="week"> disc 01: Variables and Functions, Control </p>
-              <a href="https://forms.gle/JTQSuP9PVVGNY58u7"
+              <p className="week">
+                {" "}
+                disc 01: Variables and Functions, Control{" "}
+              </p>
+              <a
+                href="https://forms.gle/JTQSuP9PVVGNY58u7"
                 target="_blank"
                 className="button slides"
-                rel="noreferrer"> attendance </a>
-              <a href="https://cs61a.org/disc/disc01/"
+                rel="noreferrer"
+              >
+                {" "}
+                attendance{" "}
+              </a>
+              <a
+                href="https://cs61a.org/disc/disc01/"
                 target="_blank"
                 className="button slides"
-                rel="noreferrer">
+                rel="noreferrer"
+              >
                 {" "}
                 assignment{" "}
               </a>
-              <a className="button"> solution </a>
+              <a href="https://cs61a.org/disc/sol-disc01/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"> solution </a>
             </div>
             <div className="wrapper">
               <p className="week"> slides 01: </p>

@@ -21,7 +21,7 @@ export default function Nav() {
             <a className="link" href="https://cs61a.org/" target="_blank" rel="noreferrer">Course Website</a>
         </div>
         <div className="link-div">
-            <a className="link" href="https://piazza.com/class/l3b5tbgw9il4kj" rel="noreferrer">Piazza</a>
+            <a className="link" href="https://piazza.com/class/l3b5tbgw9il4kj" target="_blank" rel="noreferrer">Piazza</a>
         </div>
         <div className="link-div">
             <a className="link" href="https://docs.google.com/forms/d/e/1FAIpQLSefWVPJbJdIx-04gaA_fNsMvUo6Nw6cZ5U8P5AopHfdND4iEg/viewform" target="_blank" rel="noreferrer">Feedback</a>
