@@ -84,8 +84,18 @@ export default function Body() {
             <br></br>
             <div className="wrapper">
               <p className="week">lab 01: Variables and Functions, Control </p>
-              <a className="button"> attendance </a>
-              <a className="button"> assignment </a>
+              <a href="https://tinyurl.com/adit-lab01"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"> attendance </a>
+              <a href="https://tinyurl.com/adit-study"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"> study group </a>
+              <a href="https://cs61a.org/lab/lab01/"
+                target="_blank"
+                className="button"
+                rel="noreferrer"> assignment </a>
               <a className="button"> solution </a>
             </div>
             <div className="wrapper">
