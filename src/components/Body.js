@@ -21,9 +21,15 @@ export default function Body() {
           <div className="week-div">
             <p className="current-week"> <b>week 2: 6/27 - 7/1</b> </p>
             <div className="wrapper">
-              <p className="week">lab 01: Variables and Functions, Control </p>
-              <a className="button slides"> attendance </a>
-              <a className="button"> assignment </a>
+              <p className="week">lab 02: HOF, Environment Diagrams </p>
+              <a href="https://tinyurl.com/adit-lab02"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"> attendance </a>
+              <a href="https://cs61a.org/lab/lab02/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"> assignment </a>
               <a className="button"> solution </a>
             </div>
             <div className="wrapper">
@@ -46,7 +52,10 @@ export default function Body() {
                 {" "}
                 assignment{" "}
               </a>
-              <a className="button slides"> solution </a>
+              <a href="https://cs61a.org/disc/sol-disc02/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"> solution </a>
             </div>
             <div className="wrapper">
               <p className="week"> slides 02: </p>
