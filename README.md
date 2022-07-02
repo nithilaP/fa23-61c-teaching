@@ -1,3 +1,3 @@
 # Teaching
 
-website for teaching
+A centralized website for all my teaching resources (slides, other logistical stuff ...)
