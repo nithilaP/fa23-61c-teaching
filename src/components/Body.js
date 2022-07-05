@@ -19,6 +19,84 @@ export default function Body() {
         </div>
         <div className="container">
           <div className="week-div">
+          <p className="current-week">
+              {" "}
+              <b>week 3: 7/5 - 7/8</b>{" "}
+            </p>
+            <div className="wrapper">
+              <p className="week">lab 04: Sequences </p>
+              <a
+                
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                attendance{" "}
+              </a>
+              <a
+                
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                
+                assignment{" "}
+              </a>
+              <a className="button"> solution </a>
+            </div>
+            <div className="wrapper">
+              <p className="week"> disc 04: Sequences</p>
+              <a
+                href="https://tinyurl.com/adit-disc04"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                attendance{" "}
+              </a>
+              <a
+                href="https://cs61a.org/disc/disc04/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                assignment
+              </a>
+              <a
+                
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                solution{" "}
+              </a>
+            </div>
+            <div className="wrapper">
+              <p className="week"> slides 04: </p>
+              <a
+                href="https://slides.aditbala.com/su22/disc04"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                html
+              </a>
+              <a
+                href="https://slides.aditbala.com/su22/disc04.pdf"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                pdf
+              </a>
+            </div>
+            
+            
+            
+            <br></br>
             <p className="current-week">
               {" "}
               <b>week 2: 6/27 - 7/1</b>{" "}
