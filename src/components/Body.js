@@ -65,7 +65,7 @@ export default function Body() {
                 assignment
               </a>
               <a
-                
+                href="https://cs61a.org/disc/sol-disc04/"
                 target="_blank"
                 className="button slides"
                 rel="noreferrer"
@@ -121,7 +121,10 @@ export default function Body() {
                 
                 assignment{" "}
               </a>
-              <a className="button"> solution </a>
+              <a href="https://cs61a.org/lab/sol-lab02/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"> solution </a>
             </div>
             <div className="wrapper">
               <p className="week"> disc 02: Environment Diagrams, HOF</p>
@@ -175,7 +178,7 @@ export default function Body() {
             <div className="wrapper">
               <p className="week">lab 03: Recursion, Tree Recursion </p>
               <a
-                
+                href="https://tinyurl.com/adit-lab03"
                 target="_blank"
                 className="button slides"
                 rel="noreferrer"
@@ -184,7 +187,7 @@ export default function Body() {
                 attendance{" "}
               </a>
               <a
-                
+                href="https://cs61a.org/lab/lab03/"
                 target="_blank"
                 className="button slides"
                 rel="noreferrer"
