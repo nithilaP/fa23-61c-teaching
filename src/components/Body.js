@@ -94,7 +94,77 @@ export default function Body() {
               </a>
             </div>
             
-            
+            <br></br>
+            <div className="wrapper">
+              <p className="week">lab 05: Midterm Review </p>
+              <a
+                
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                attendance{" "}
+              </a>
+              <a
+                
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                
+                assignment{" "}
+              </a>
+              <a className="button"> solution </a>
+            </div>
+            <div className="wrapper">
+              <p className="week"> disc 05: Mutability, OOP</p>
+              <a
+                href="https://tinyurl.com/adit-disc05"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                attendance{" "}
+              </a>
+              <a
+                href="https://cs61a.org/disc/disc05/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                assignment
+              </a>
+              <a
+                
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                solution{" "}
+              </a>
+            </div>
+            <div className="wrapper">
+              <p className="week"> slides 04: </p>
+              <a
+                href="https://slides.aditbala.com/su22/disc05"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                html
+              </a>
+              <a
+                href="https://slides.aditbala.com/su22/disc05.pdf"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                pdf
+              </a>
+            </div>
             
             <br></br>
             <p className="current-week">

@@ -14,7 +14,7 @@ export default function Nav() {
               <h1 className="name"> Aditya Balasubramanian</h1>
           </div>
           <p className="email"> aditbala [at] berkeley [dot] edu</p>
-          <h5 className="position"> Summer 2022 CS 61A uGSI </h5> 
+          <h5 className="position"> Summer 2022 CS 61a uGSI </h5> 
       </div>
       <div className="navbar">
         <div className="link-div">
