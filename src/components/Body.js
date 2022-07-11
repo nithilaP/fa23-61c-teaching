@@ -19,12 +19,12 @@ export default function Body() {
         </div>
         <div className="container">
           <div className="week-div">
-          <p className="current-week">
+            <p className="current-week">
               {" "}
-              <b>week 3: 7/5 - 7/8</b>{" "}
+              <b>week 3: 7/11 - 7/15</b>{" "}
             </p>
             <div className="wrapper">
-              <p className="week">lab 04: Sequences </p>
+              <p className="week">lab 06: Iterators, Generators </p>
               <a
                 
                 target="_blank"
@@ -40,7 +40,142 @@ export default function Body() {
                 className="button slides"
                 rel="noreferrer"
               >
+                assignment{" "}
+              </a>
+              <a className="button"> solution </a>
+            </div>
+            <div className="wrapper">
+              <p className="week"> disc 06: Inheritance, Midterm Review </p>
+              <a
                 
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                attendance{" "}
+              </a>
+              <a
+                href="https://cs61a.org/disc/disc06/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                assignment
+              </a>
+              <a
+                
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                solution{" "}
+              </a>
+            </div>
+            <div className="wrapper">
+              <p className="week"> slides 06: </p>
+              <a
+                href="https://slides.aditbala.com/su22/disc06"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                html
+              </a>
+              <a
+                href="https://slides.aditbala.com/su22/disc06.pdf"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                pdf
+              </a>
+            </div>
+
+            <br></br>
+            <div className="wrapper">
+              <p className="week">lab 07: Mutable Trees, Linked Lists </p>
+              <a target="_blank" className="button slides" rel="noreferrer">
+                {" "}
+                attendance{" "}
+              </a>
+              <a target="_blank" className="button slides" rel="noreferrer">
+                assignment{" "}
+              </a>
+              <a className="button"> solution </a>
+            </div>
+            <div className="wrapper">
+              <p className="week"> disc 07: Trees, Linked Lists</p>
+              <a
+                
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                attendance{" "}
+              </a>
+              <a
+                
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                assignment
+              </a>
+              <a
+                
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                solution{" "}
+              </a>
+            </div>
+            <div className="wrapper">
+              <p className="week"> slides 07: </p>
+              <a
+                href="https://slides.aditbala.com/su22/disc07"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                html
+              </a>
+              <a
+                href="https://slides.aditbala.com/su22/disc7.pdf"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                pdf
+              </a>
+            </div>
+
+            <br></br>
+            <p className="current-week">
+              {" "}
+              <b>week 3: 7/4 - 7/8 </b>{" "}
+            </p>
+            <div className="wrapper">
+              <p className="week">lab 04: Sequences, Mutability, OOP </p>
+              <a
+                href="https://tinyurl.com/adit-lab04"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                attendance{" "}
+              </a>
+              <a
+                href="https://cs61a.org/lab/lab02/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
                 assignment{" "}
               </a>
               <a className="button"> solution </a>
@@ -93,26 +228,15 @@ export default function Body() {
                 pdf
               </a>
             </div>
-            
+
             <br></br>
             <div className="wrapper">
               <p className="week">lab 05: Midterm Review </p>
-              <a
-                
-                target="_blank"
-                className="button slides"
-                rel="noreferrer"
-              >
+              <a target="_blank" className="button slides" rel="noreferrer">
                 {" "}
                 attendance{" "}
               </a>
-              <a
-                
-                target="_blank"
-                className="button slides"
-                rel="noreferrer"
-              >
-                
+              <a target="_blank" className="button slides" rel="noreferrer">
                 assignment{" "}
               </a>
               <a className="button"> solution </a>
@@ -137,7 +261,7 @@ export default function Body() {
                 assignment
               </a>
               <a
-                
+                href="https://cs61a.org/disc/sol-disc05/"
                 target="_blank"
                 className="button slides"
                 rel="noreferrer"
@@ -147,7 +271,7 @@ export default function Body() {
               </a>
             </div>
             <div className="wrapper">
-              <p className="week"> slides 04: </p>
+              <p className="week"> slides 05: </p>
               <a
                 href="https://slides.aditbala.com/su22/disc05"
                 target="_blank"
@@ -165,7 +289,7 @@ export default function Body() {
                 pdf
               </a>
             </div>
-            
+
             <br></br>
             <p className="current-week">
               {" "}
@@ -188,13 +312,17 @@ export default function Body() {
                 className="button slides"
                 rel="noreferrer"
               >
-                
                 assignment{" "}
               </a>
-              <a href="https://cs61a.org/lab/sol-lab02/"
+              <a
+                href="https://cs61a.org/lab/sol-lab02/"
                 target="_blank"
                 className="button slides"
-                rel="noreferrer"> solution </a>
+                rel="noreferrer"
+              >
+                {" "}
+                solution{" "}
+              </a>
             </div>
             <div className="wrapper">
               <p className="week"> disc 02: Environment Diagrams, HOF</p>
@@ -262,7 +390,6 @@ export default function Body() {
                 className="button slides"
                 rel="noreferrer"
               >
-                
                 assignment{" "}
               </a>
               <a className="button"> solution </a>
