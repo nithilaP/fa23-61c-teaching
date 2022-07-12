@@ -9,8 +9,7 @@ export default function Body() {
           <h1 className="title"> Announcements </h1>
         </div>
         <p className="announcements">
-          Welcome to cs 61a! make sure to check the course website for classwide
-          announcements!
+          Good luck on the midterm :)
         </p>
       </div>
       <div className="container">
@@ -92,6 +91,17 @@ export default function Body() {
                 pdf
               </a>
             </div>
+            <div className="wrapper">
+              <p className="week"> midsemester survey: </p>
+              <a
+                href="http://go.cs61a.org/mid-sem-survey"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                link
+              </a>
+            </div>
 
             <br></br>
             <div className="wrapper">
@@ -153,6 +163,7 @@ export default function Body() {
                 pdf
               </a>
             </div>
+            
 
             <br></br>
             <p className="current-week">
@@ -521,15 +532,6 @@ export default function Body() {
                 attendance{" "}
               </a>
               <a
-                href="https://tinyurl.com/adit-study"
-                target="_blank"
-                className="button slides"
-                rel="noreferrer"
-              >
-                {" "}
-                study group{" "}
-              </a>
-              <a
                 href="https://cs61a.org/lab/lab01/"
                 target="_blank"
                 className="button"
@@ -540,6 +542,7 @@ export default function Body() {
               </a>
               <a className="button"> solution </a>
             </div>
+            
             <div className="wrapper">
               <p className="week">
                 {" "}
@@ -590,6 +593,17 @@ export default function Body() {
                 rel="noreferrer"
               >
                 pdf
+              </a>
+            </div>
+            <div className="wrapper">
+              <p className="week"> study groups: </p>
+              <a
+                href="https://tinyurl.com/adit-study"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                link
               </a>
             </div>
           </div>
