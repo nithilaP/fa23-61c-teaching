@@ -47,7 +47,7 @@ export default function Body() {
             <div className="wrapper">
               <p className="week"> disc 06: Inheritance, Midterm Review </p>
               <a
-                
+                href="https://tinyurl.com/adit-disc06"
                 target="_blank"
                 className="button slides"
                 rel="noreferrer"
