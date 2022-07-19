@@ -20,12 +20,12 @@ export default function Body() {
           <div className="week-div">
             <p className="current-week">
               {" "}
-              <b>week 3: 7/11 - 7/15</b>{" "}
+              <b>week 3 & 4: 7/11 - 7/22</b>{" "}
             </p>
             <div className="wrapper">
               <p className="week">lab 06: Iterators, Generators </p>
               <a
-                
+                href="https://tinyurl.com/adit-lab06"
                 target="_blank"
                 className="button slides"
                 rel="noreferrer"
@@ -34,14 +34,17 @@ export default function Body() {
                 attendance{" "}
               </a>
               <a
-                
+                href="https://cs61a.org/lab/lab06/"
                 target="_blank"
                 className="button slides"
                 rel="noreferrer"
               >
                 assignment{" "}
               </a>
-              <a className="button"> solution </a>
+              <a href="https://cs61a.org/lab/sol-lab06/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"> solution </a>
             </div>
             <div className="wrapper">
               <p className="week"> disc 06: Inheritance, Midterm Review </p>
@@ -63,7 +66,7 @@ export default function Body() {
                 assignment
               </a>
               <a
-                
+                href="https://cs61a.org/disc/disc06/"
                 target="_blank"
                 className="button slides"
                 rel="noreferrer"
@@ -94,7 +97,7 @@ export default function Body() {
             <div className="wrapper">
               <p className="week"> midsemester survey: </p>
               <a
-                href="http://go.cs61a.org/mid-sem-survey"
+                href="https://tinyurl.com/mid-survey"
                 target="_blank"
                 className="button slides"
                 rel="noreferrer"
@@ -118,7 +121,7 @@ export default function Body() {
             <div className="wrapper">
               <p className="week"> disc 07: Trees, Linked Lists</p>
               <a
-                
+                href="https://tinyurl.com/adit-disc07"
                 target="_blank"
                 className="button slides"
                 rel="noreferrer"
@@ -127,7 +130,7 @@ export default function Body() {
                 attendance{" "}
               </a>
               <a
-                
+                href="https://cs61a.org/disc/disc07/"
                 target="_blank"
                 className="button slides"
                 rel="noreferrer"
