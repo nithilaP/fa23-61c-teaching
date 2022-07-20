@@ -20,7 +20,7 @@ export default function Body() {
           <div className="week-div">
             <p className="current-week">
               {" "}
-              <b>week 3 & 4: 7/11 - 7/22</b>{" "}
+              <b>week 4 & 5: 7/11 - 7/22</b>{" "}
             </p>
             <div className="wrapper">
               <p className="week">lab 06: Iterators, Generators </p>
@@ -109,11 +109,11 @@ export default function Body() {
             <br></br>
             <div className="wrapper">
               <p className="week">lab 07: Mutable Trees, Linked Lists </p>
-              <a target="_blank" className="button slides" rel="noreferrer">
+              <a href="https://tinyurl.com/adit-lab07" target="_blank" className="button slides" rel="noreferrer">
                 {" "}
                 attendance{" "}
               </a>
-              <a target="_blank" className="button slides" rel="noreferrer">
+              <a href="https://cs61a.org/lab/lab07/" target="_blank" className="button slides" rel="noreferrer">
                 assignment{" "}
               </a>
               <a className="button"> solution </a>
@@ -158,7 +158,7 @@ export default function Body() {
                 html
               </a>
               <a
-                href="https://slides.aditbala.com/su22/disc7.pdf"
+                href="https://slides.aditbala.com/su22/disc07.pdf"
                 target="_blank"
                 className="button slides"
                 rel="noreferrer"
