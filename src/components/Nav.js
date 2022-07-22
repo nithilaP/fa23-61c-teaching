@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <div className="sidebar-container">
       <div className="pfp-container">
-        <div className="switch">
+        <div className="switch" alt="<flag>[boo]</flag>">
         </div>
       </div>
       <div className="divider"></div>
@@ -32,7 +32,7 @@ export default function Nav() {
         <p className="times"> <b>Disc: </b>Tu/Th 1:00-2:30PM @ <b>Soda 306</b> </p>
         <p className="times"> <b>Office Hours:</b> 
         <br></br> M 1:00-2:00 PM @ <b> Cory 293</b>
-        <br></br> Th 2:00-3:00 PM @ <b> Cory 521</b> <br></br>Fr 1:00-2:00 PM @ <b> Cory 521</b>  </p>
+        <br></br> Th 3:00-4:00 PM @ <b> Cory 521</b> <br></br>Fr 1:00-2:00 PM @ <b> Cory 521</b>  </p>
       </div>
     </div>
   );

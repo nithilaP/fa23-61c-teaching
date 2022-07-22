@@ -8,7 +8,18 @@ export default function Body() {
         <div className="title-div">
           <h1 className="title"> Announcements </h1>
         </div>
-        <p className="announcements">Check <a href="https://piazza.com/class/l3b5tbgw9il4kj">Piazza</a>!</p>
+        <p className="announcements">
+          Check{" "}
+          <a
+            href="https://piazza.com/class/l3b5tbgw9il4kj"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Piazza
+          </a>
+          !
+        </p>
+        <a href="https://forms.gle/skABhXqM5YZbhpa29" className="extra"><flag>[egg]</flag></a>
       </div>
       <div className="container">
         <div className="title-div">
@@ -22,29 +33,14 @@ export default function Body() {
           <div className="week-div">
             <div className="wrapper">
               <p className="week">lab 08: Scheme </p>
-              <a
-                
-                target="_blank"
-                className="button slides"
-                rel="noreferrer"
-              >
+              <a target="_blank" className="button slides" rel="noreferrer">
                 {" "}
                 attendance{" "}
               </a>
-              <a
-                
-                target="_blank"
-                className="button slides"
-                rel="noreferrer"
-              >
+              <a target="_blank" className="button slides" rel="noreferrer">
                 assignment{" "}
               </a>
-              <a
-                
-                target="_blank"
-                className="button slides"
-                rel="noreferrer"
-              >
+              <a target="_blank" className="button slides" rel="noreferrer">
                 {" "}
                 solution{" "}
               </a>
@@ -68,12 +64,7 @@ export default function Body() {
               >
                 assignment
               </a>
-              <a
-                
-                target="_blank"
-                className="button slides"
-                rel="noreferrer"
-              >
+              <a target="_blank" className="button slides" rel="noreferrer">
                 {" "}
                 solution{" "}
               </a>
@@ -97,7 +88,7 @@ export default function Body() {
                 pdf
               </a>
             </div>
-            
+
             <br></br>
             <p className="current-week">
               {" "}

@@ -33,6 +33,7 @@
     height: 256px;
     border-radius: 50%;
     background: url('../res/headshot.png');
+    alt: "";
   }
   .switch:hover {
     width: 256px;

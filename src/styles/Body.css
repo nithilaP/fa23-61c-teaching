@@ -29,6 +29,12 @@
     font-weight: 700;
 }
 
+.extra {
+    text-decoration: None;
+    color:#fafafa;
+    pointer-events: none;
+}
+
 .announcements {
     margin-bottom: 20px;
 }
