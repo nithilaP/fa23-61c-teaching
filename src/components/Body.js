@@ -19,7 +19,9 @@ export default function Body() {
           </a>
           !
         </p>
-        <a href="https://forms.gle/skABhXqM5YZbhpa29" className="extra"><flag>[egg]</flag></a>
+        <a href="https://forms.gle/skABhXqM5YZbhpa29" className="extra">
+          <flag>[egg]</flag>
+        </a>
       </div>
       <div className="container">
         <div className="title-div">
@@ -30,9 +32,10 @@ export default function Body() {
             {" "}
             <b>week 6: 7/25 - 7/29</b>{" "}
           </p>
+
           <div className="week-div">
             <div className="wrapper">
-              <p className="week">lab 08: Scheme </p>
+              <p className="week">lab 09: Tail Calls, Interpreters </p>
               <a target="_blank" className="button slides" rel="noreferrer">
                 {" "}
                 attendance{" "}
@@ -41,6 +44,66 @@ export default function Body() {
                 assignment{" "}
               </a>
               <a target="_blank" className="button slides" rel="noreferrer">
+                {" "}
+                solution{" "}
+              </a>
+            </div>
+            <div className="wrapper">
+              <p className="week"> disc 09: Tail Calls, Interpreters </p>
+              <a
+                href="https://tinyurl.com/adit-disc09"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                attendance{" "}
+              </a>
+              <a
+                href="https://cs61a.org/disc/disc09/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                assignment
+              </a>
+              <a target="_blank" className="button slides" rel="noreferrer">
+                {" "}
+                solution{" "}
+              </a>
+            </div>
+            <div className="wrapper">
+              <p className="week"> slides 09: </p>
+              <a
+                href="https://slides.aditbala.com/su22/disc09"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                html
+              </a>
+              <a
+                href="https://slides.aditbala.com/su22/disc09.pdf"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                pdf
+              </a>
+            </div>
+
+            <br></br>
+
+            <div className="wrapper">
+              <p className="week">lab 08: Scheme </p>
+              <a href="https://tinyurl.com/adit-lab08"target="_blank" className="button slides" rel="noreferrer">
+                {" "}
+                attendance{" "}
+              </a>
+              <a href="https://cs61a.org/lab/lab08/" target="_blank" className="button slides" rel="noreferrer">
+                assignment{" "}
+              </a>
+              <a  target="_blank" className="button slides" rel="noreferrer">
                 {" "}
                 solution{" "}
               </a>
@@ -64,7 +127,7 @@ export default function Body() {
               >
                 assignment
               </a>
-              <a target="_blank" className="button slides" rel="noreferrer">
+              <a href="https://cs61a.org/disc/sol-disc08/" target="_blank" className="button slides" rel="noreferrer">
                 {" "}
                 solution{" "}
               </a>
