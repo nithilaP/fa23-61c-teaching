@@ -19,7 +19,7 @@ export default function Body() {
           </a>
           !
         </p>
-        <a href="https://forms.gle/skABhXqM5YZbhpa29" className="extra">
+        <a className="extra">
           <flag>[egg]</flag>
         </a>
       </div>
@@ -664,6 +664,14 @@ export default function Body() {
                 rel="noreferrer"
               >
                 pdf
+              </a>
+              <a
+                href="/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                ▮▮▮▮▮▮▮▮b▮
               </a>
             </div>
             <br></br>

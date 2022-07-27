@@ -30,6 +30,9 @@ export default function Nav() {
         <div className="link-div">
             <a className="link" href="https://docs.google.com/forms/d/e/1FAIpQLSefWVPJbJdIx-04gaA_fNsMvUo6Nw6cZ5U8P5AopHfdND4iEg/viewform" target="_blank" rel="noreferrer">Feedback</a>
         </div>
+        <div className="link-div">
+            <a className="link" href="https://forms.gle/skABhXqM5YZbhpa29" target="_blank" rel="noreferrer">Easter Eggs</a>
+        </div>
       </div>
       <div className="times-container">
         <p className="times"> <b>Lab:</b> M/W 9:30-11:00  AM @ <b>Soda 330</b> </p>
