@@ -1,14 +1,15 @@
 import React from "react";
-import Nav from "./components/Nav";
-import Body from "./components/Body";
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./components/Main";
+import Piazza from "./components/Piazza";
+import "./App.css";
 
 function App() {
   return (
-    <div className="page">
-      <Nav></Nav>
-      <Body></Body>
-    </div>
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="/Piazza" element={<Piazza />} />
+    </Routes>
   );
 }
 

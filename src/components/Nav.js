@@ -9,7 +9,7 @@ export default function Nav() {
   return (
     <div className="sidebar-container">
       <div className="pfp-container">
-        <div className="switch" alt="<flag>[boo]</flag>">
+        <div className="switch" title="<flag>[boo]</flag>">
         </div>
       </div>
       <div className="divider"></div>

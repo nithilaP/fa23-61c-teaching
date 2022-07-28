@@ -15,7 +15,7 @@ export default function Body() {
             target="_blank"
             rel="noreferrer"
           >
-            Piazza
+            /Piazza
           </a>
           !
         </p>
@@ -36,11 +36,11 @@ export default function Body() {
           <div className="week-div">
             <div className="wrapper">
               <p className="week">lab 09: Tail Calls, Interpreters </p>
-              <a target="_blank" className="button slides" rel="noreferrer">
+              <a href="https://tinyurl.com/adit-lab09" target="_blank" className="button slides" rel="noreferrer">
                 {" "}
                 attendance{" "}
               </a>
-              <a target="_blank" className="button slides" rel="noreferrer">
+              <a href="https://cs61a.org/lab/lab09/" target="_blank" className="button slides" rel="noreferrer">
                 assignment{" "}
               </a>
               <a target="_blank" className="button slides" rel="noreferrer">
@@ -671,7 +671,7 @@ export default function Body() {
                 className="button slides"
                 rel="noreferrer"
               >
-                ▮▮▮▮▮▮▮▮b▮
+                ↑▮▮▮▮▮▮▮b▮
               </a>
             </div>
             <br></br>
