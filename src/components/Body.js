@@ -20,7 +20,7 @@ export default function Body() {
           !
         </p>
         <a className="extra">
-          <flag>[egg]</flag>
+          [egg]
         </a>
       </div>
       <div className="container">
@@ -28,19 +28,100 @@ export default function Body() {
           <h1 className="title"> Weekly Materials </h1>
         </div>
         <div className="container">
-          <p className="current-week">
-            {" "}
-            <b>week 6: 7/25 - 7/29</b>{" "}
-          </p>
-
           <div className="week-div">
+            <p className="current-week">
+              {" "}
+              <b>week 7: 8/1 - 8/5</b>{" "}
+            </p>
             <div className="wrapper">
-              <p className="week">lab 09: Tail Calls, Interpreters </p>
-              <a href="https://tinyurl.com/adit-lab09" target="_blank" className="button slides" rel="noreferrer">
+              <p className="week">lab 10: Scheme Data Abstractions</p>
+              <a
+                
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
                 {" "}
                 attendance{" "}
               </a>
-              <a href="https://cs61a.org/lab/lab09/" target="_blank" className="button slides" rel="noreferrer">
+              <a
+                
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                assignment{" "}
+              </a>
+              <a target="_blank" className="button slides" rel="noreferrer">
+                {" "}
+                solution{" "}
+              </a>
+            </div>
+            <div className="wrapper">
+              <p className="week"> disc 10: Scheme Data Abstractions </p>
+              <a
+                href="https://tinyurl.com/adit-disc10"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                attendance{" "}
+              </a>
+              <a
+                href="https://cs61a.org/disc/disc10/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                assignment
+              </a>
+              <a target="_blank" className="button slides" rel="noreferrer">
+                {" "}
+                solution{" "}
+              </a>
+            </div>
+            <div className="wrapper">
+              <p className="week"> slides 10: </p>
+              <a
+                href="https://slides.aditbala.com/su22/disc10"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                html
+              </a>
+              <a
+                href="https://slides.aditbala.com/su22/disc10.pdf"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                pdf
+              </a>
+            </div>
+            <br></br>
+            <p className="current-week">
+              {" "}
+              <b>week 6: 7/25 - 7/29</b>{" "}
+            </p>
+            <div className="wrapper">
+              <p className="week">lab 09: Tail Calls, Interpreters </p>
+              <a
+                href="https://tinyurl.com/adit-lab09"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                attendance{" "}
+              </a>
+              <a
+                href="https://cs61a.org/lab/lab09/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
                 assignment{" "}
               </a>
               <a target="_blank" className="button slides" rel="noreferrer">
@@ -96,14 +177,24 @@ export default function Body() {
 
             <div className="wrapper">
               <p className="week">lab 08: Scheme </p>
-              <a href="https://tinyurl.com/adit-lab08"target="_blank" className="button slides" rel="noreferrer">
+              <a
+                href="https://tinyurl.com/adit-lab08"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
                 {" "}
                 attendance{" "}
               </a>
-              <a href="https://cs61a.org/lab/lab08/" target="_blank" className="button slides" rel="noreferrer">
+              <a
+                href="https://cs61a.org/lab/lab08/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
                 assignment{" "}
               </a>
-              <a  target="_blank" className="button slides" rel="noreferrer">
+              <a target="_blank" className="button slides" rel="noreferrer">
                 {" "}
                 solution{" "}
               </a>
@@ -127,7 +218,12 @@ export default function Body() {
               >
                 assignment
               </a>
-              <a href="https://cs61a.org/disc/sol-disc08/" target="_blank" className="button slides" rel="noreferrer">
+              <a
+                href="https://cs61a.org/disc/sol-disc08/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
                 {" "}
                 solution{" "}
               </a>

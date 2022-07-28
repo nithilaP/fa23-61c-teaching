@@ -4,12 +4,12 @@ import { useKonami } from 'react-konami-code';
 
 export default function Nav() {
   useKonami(() => {
-    alert('<flag>[konami]</flag>');
+    alert('[konami]');
   });
   return (
     <div className="sidebar-container">
       <div className="pfp-container">
-        <div className="switch" title="<flag>[boo]</flag>">
+        <div className="switch" title="[boo]">
         </div>
       </div>
       <div className="divider"></div>
