@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Main from "./components/Main";
 import Piazza from "./components/Piazza";
 import "./App.css";
