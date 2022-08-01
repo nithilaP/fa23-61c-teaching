@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Nav.css";
 import { useKonami } from 'react-konami-code';
 
+// Obfuscate funciton
 export default function Nav() {
   useKonami(() => {
     alert('[konami]');

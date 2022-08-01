@@ -22,6 +22,11 @@ export default function Body() {
         <a className="extra">
           [egg]
         </a>
+        <p>
+        Alas, we are here <br></br>
+Do not fear, please do not cry <br></br>
+The last hint is nigh
+        </p>
       </div>
       <div className="container">
         <div className="title-div">
@@ -36,7 +41,7 @@ export default function Body() {
             <div className="wrapper">
               <p className="week">lab 10: Scheme Data Abstractions</p>
               <a
-                
+                href="https://tinyurl.com/adit-lab10"
                 target="_blank"
                 className="button slides"
                 rel="noreferrer"
@@ -45,7 +50,7 @@ export default function Body() {
                 attendance{" "}
               </a>
               <a
-                
+                href="https://cs61a.org/lab/lab10/"
                 target="_blank"
                 className="button slides"
                 rel="noreferrer"
@@ -76,7 +81,7 @@ export default function Body() {
               >
                 assignment
               </a>
-              <a target="_blank" className="button slides" rel="noreferrer">
+              <a href="https://cs61a.org/disc/sol-disc10/" target="_blank" className="button slides" rel="noreferrer">
                 {" "}
                 solution{" "}
               </a>
