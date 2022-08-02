@@ -39,6 +39,74 @@ The last hint is nigh
               <b>week 7: 8/1 - 8/5</b>{" "}
             </p>
             <div className="wrapper">
+              <p className="week">lab 11: Regular Expressions, SQL</p>
+              <a
+                
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                attendance{" "}
+              </a>
+              <a
+                
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                assignment{" "}
+              </a>
+              <a target="_blank" className="button slides" rel="noreferrer">
+                {" "}
+                solution{" "}
+              </a>
+            </div>
+            <div className="wrapper">
+              <p className="week"> disc 11: Regular Expressions, SQL </p>
+              <a
+                href="https://tinyurl.com/adit-disc11"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                {" "}
+                attendance{" "}
+              </a>
+              <a
+                href="https://cs61a.org/disc/disc11/"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                assignment
+              </a>
+              <a  target="_blank" className="button slides" rel="noreferrer">
+                {" "}
+                solution{" "}
+              </a>
+            </div>
+            <div className="wrapper">
+              <p className="week"> slides 11: </p>
+              <a
+                href="https://slides.aditbala.com/su22/disc11"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                html
+              </a>
+              <a
+                href="https://slides.aditbala.com/su22/disc11.pdf"
+                target="_blank"
+                className="button slides"
+                rel="noreferrer"
+              >
+                pdf
+              </a>
+            </div>
+            <br></br>
+            <div className="wrapper">
               <p className="week">lab 10: Scheme Data Abstractions</p>
               <a
                 href="https://tinyurl.com/adit-lab10"
@@ -57,7 +125,7 @@ The last hint is nigh
               >
                 assignment{" "}
               </a>
-              <a target="_blank" className="button slides" rel="noreferrer">
+              <a href="https://cs61a.org/lab/sol-lab11/" target="_blank" className="button slides" rel="noreferrer">
                 {" "}
                 solution{" "}
               </a>
