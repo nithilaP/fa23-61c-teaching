@@ -19,7 +19,7 @@ export default function Body() {
               start="24"
               end="26"
               content={[
-                ["00", "Getting Started", [true, false], [false, false]],
+                ["00", "Getting Started", [true, true], [false, false]],
               ]}
             />
           </div>

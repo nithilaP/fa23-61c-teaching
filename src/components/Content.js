@@ -9,15 +9,15 @@ const links = {
   attendanceLab: "https://tinyurl.com/adit-lab",
 };
 
-export default function Content({ num, title, attend, sol, }) {
+export default function Content({ num, title, attend, sol }) {
   return (
     <>
-      <div className="wrapper">
-        <p className="week">
-          lab {num}: {title}
-        </p>
-        {attend[1] && (
-          <a
+      {attend[1] && (
+        <div className="wrapper">
+          <p className="week">
+            lab {num}: {title}
+          </p>
+          {num != `00` && (<a
             href={links.attendanceLab + `${num}`}
             target="_blank"
             className="button slides"
@@ -25,44 +25,46 @@ export default function Content({ num, title, attend, sol, }) {
           >
             {" "}
             attendance{" "}
-          </a>
-        )}
-        <a
-          href={links.lab + `lab${num}`}
-          target="_blank"
-          className="button slides"
-          rel="noreferrer"
-        >
-          assignment{" "}
-        </a>
-        {sol[1] && (
+          </a>)}
+
           <a
-            href={links.lab + `sol-lab${num}`}
+            href={links.lab + `lab${num}`}
             target="_blank"
             className="button slides"
             rel="noreferrer"
           >
-            {" "}
-            solution{" "}
+            assignment{" "}
           </a>
-        )}
-      </div>
-      <div className="wrapper">
+          {sol[1] && (
+            <a
+              href={links.lab + `sol-lab${num}`}
+              target="_blank"
+              className="button slides"
+              rel="noreferrer"
+            >
+              {" "}
+              solution{" "}
+            </a>
+          )}
+        </div>
+      )}
+      {attend[0] && (
+        <div className="wrapper">
         <p className="week">
           {" "}
           disc {num}: {title}{" "}
         </p>
-        {attend[0] && (
-          <a
-            href={links.attendanceDisc + `${num}`}
-            target="_blank"
-            className="button slides"
-            rel="noreferrer"
-          >
-            {" "}
-            attendance{" "}
-          </a>
-        )}
+
+        <a
+          href={links.attendanceDisc + `${num}`}
+          target="_blank"
+          className="button slides"
+          rel="noreferrer"
+        >
+          {" "}
+          attendance{" "}
+        </a>
+
         <a
           href={links.disc + `disc${num}`}
           target="_blank"
@@ -84,6 +86,7 @@ export default function Content({ num, title, attend, sol, }) {
           </a>
         )}
       </div>
+      )}
       <div className="wrapper">
         <p className="week"> slides {num}: </p>
         <a

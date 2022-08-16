@@ -37,7 +37,8 @@ export default function Nav() {
             Feedback
           </a>
         </div>
-        <div className="link-div">
+        
+        {/* <div className="link-div">
           <a
             className="link"
             href="https://forms.gle/skABhXqM5YZbhpa29"
@@ -46,7 +47,7 @@ export default function Nav() {
           >
             Easter Eggs
           </a>
-        </div>
+        </div> */}
       </div>
       <div className="times-container">
         <p className="times">
