@@ -13,12 +13,7 @@ export default function Week({ num, month, start, end, content }) {
       </p>
       <div>
         {content.reverse().map((num) => (
-          <Content
-            num={num[0]}
-            title={num[1]}
-            discSol={num[2]}
-            labSol={num[3]}
-          />
+          <Content num={num[0]} title={num[1]} attend={num[2]} sol={num[3]} />
         ))}
       </div>
     </>

@@ -18,7 +18,9 @@ export default function Body() {
               month="8"
               start="24"
               end="26"
-              content={[["00", "Getting Started", false, false]]}
+              content={[
+                ["00", "Getting Started", [true, false], [false, false]],
+              ]}
             />
           </div>
         </div>
