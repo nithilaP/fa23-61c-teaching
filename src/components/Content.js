@@ -1,10 +1,12 @@
 import React from "react";
 import "../styles/Body.css";
 
+const year = "fa22"
+
 const links = {
   disc: "https://cs61a.org/disc/",
   lab: "https://cs61a.org/lab/",
-  slides: "https://slides.aditbala.com/su22/",
+  slides: `https://slides.aditbala.com/${year}/`,
   attendanceDisc: "https://tinyurl.com/adit-disc",
   attendanceLab: "https://tinyurl.com/adit-lab",
 };
