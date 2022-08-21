@@ -2,13 +2,13 @@ import React from "react";
 import Content from "./Content";
 import "../styles/Body.css";
 
-export default function Week({ num, month, start, end, content }) {
+export default function Week({ num, month, mStart, mEnd, dStart, dEnd, content }) {
   return (
     <>
       <p className="current-week">
         {" "}
         <b>
-          week {num}: {month}/{start} - {month}/{end}
+          week {num}: {mStart}/{dStart} - {mEnd}/{dEnd}
         </b>{" "}
       </p>
       <div>

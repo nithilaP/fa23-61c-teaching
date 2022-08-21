@@ -15,9 +15,10 @@ export default function Body() {
           <div className="week-div">
             <Week
               num="01"
-              month="8"
-              start="24"
-              end="26"
+              mStart="8"
+              dStart="24"
+              mEnd="8"
+              dEnd="26"
               content={[
                 ["00", "Getting Started", [true, true], [false, false]],
               ]}
