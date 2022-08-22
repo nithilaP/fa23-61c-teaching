@@ -37,7 +37,7 @@ export default function Nav() {
             Feedback
           </a>
         </div>
-        
+
         {/* <div className="link-div">
           <a
             className="link"
@@ -52,11 +52,11 @@ export default function Nav() {
       <div className="times-container">
         <p className="times">
           {" "}
-          <b>Lab:</b> <b>TBD</b>{" "}
+          <b>Lab:</b> Tu 11:30AM-12:30PM @ <b>Soda 275</b>{" "}
         </p>
         <p className="times">
           {" "}
-          <b>Disc:</b> <b>TBD</b>{" "}
+          <b>Disc: </b>Th 3:30-5:00PM @ <b>Soda 320</b>{" "}
         </p>
         <p className="times">
           {" "}
