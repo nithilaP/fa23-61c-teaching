@@ -7,7 +7,7 @@ export default function Announcements() {
       <div className="title-div">
         <h1 className="title"> Announcements </h1>
       </div>
-      <p className="announcements">Welcome to CS 61A!!!</p>
+      <p className="announcements">Welcome to CS 61A!!! (≧∇≦)/</p>
     </div>
   );
 }

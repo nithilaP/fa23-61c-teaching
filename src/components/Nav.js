@@ -14,7 +14,7 @@ export default function Nav() {
           <h1 className="name"> Aditya Balasubramanian</h1>
         </div>
         <p className="email"> aditbala [at] berkeley [dot] edu</p>
-        <h5 className="position"> Fall 2022 CS 61A uGSI </h5>
+        <h5 className="position"> Fall 2022 CS 61A TA </h5>
       </div>
       <div className="navbar">
         <div className="link-div">
@@ -52,11 +52,11 @@ export default function Nav() {
       <div className="times-container">
         <p className="times">
           {" "}
-          <b>Lab:</b> Tu 11:30AM-12:30PM @ <b>Soda 275</b>{" "}
+          <b>Lab:</b> Tu 2:00-3:30PM @ <b>Soda 271</b>{" "}
         </p>
         <p className="times">
           {" "}
-          <b>Disc: </b>Th 3:30-5:00PM @ <b>Soda 320</b>{" "}
+          <b>Disc: </b>Th 2:00-3:30PM @ <b>Soda 405</b>{" "}
         </p>
         <p className="times">
           {" "}
