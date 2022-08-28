@@ -11,13 +11,13 @@ const links = {
   attendanceLab: "https://tinyurl.com/adit-lab",
 };
 
-export default function Content({ num, title, attend, sol }) {
+export default function Content({ num, labTitle, discTitle, attend, sol }) {
   return (
     <>
       {attend[1] && (
         <div className="wrapper">
           <p className="week">
-            lab {num}: {title}
+            lab {num}: {labTitle}
           </p>
           {num != `00` && (<a
             href={links.attendanceLab + `${num}`}
@@ -54,7 +54,7 @@ export default function Content({ num, title, attend, sol }) {
         <div className="wrapper">
         <p className="week">
           {" "}
-          disc {num}: {title}{" "}
+          disc {num}: {discTitle}{" "}
         </p>
 
         <a

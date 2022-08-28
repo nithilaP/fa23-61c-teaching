@@ -13,6 +13,22 @@ export default function Body() {
         </div>
         <div className="container">
           <div className="week-div">
+            {/* <Week
+              num="02"
+              mStart="8"
+              dStart="29"
+              mEnd="9"
+              dEnd="2"
+              content={[
+                [
+                  "01",
+                  "Functions, Control",
+                  "Functions, Control, Environment Diagram",
+                  [true, true],
+                  [false, false],
+                ],
+              ]}
+            /> */}
             <Week
               num="01"
               mStart="8"
@@ -20,7 +36,13 @@ export default function Body() {
               mEnd="8"
               dEnd="26"
               content={[
-                ["00", "Getting Started", [true, true], [false, false]],
+                [
+                  "00",
+                  "Getting Started",
+                  "Getting Started",
+                  [true, true],
+                  [true, false],
+                ],
               ]}
             />
           </div>

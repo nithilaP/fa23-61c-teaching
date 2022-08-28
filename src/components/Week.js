@@ -2,7 +2,7 @@ import React from "react";
 import Content from "./Content";
 import "../styles/Body.css";
 
-export default function Week({ num, month, mStart, mEnd, dStart, dEnd, content }) {
+export default function Week({ num, mStart, mEnd, dStart, dEnd, content }) {
   return (
     <>
       <p className="current-week">
@@ -13,7 +13,8 @@ export default function Week({ num, month, mStart, mEnd, dStart, dEnd, content }
       </p>
       <div>
         {content.reverse().map((num) => (
-          <Content num={num[0]} title={num[1]} attend={num[2]} sol={num[3]} />
+          // disc, lab
+          <Content num={num[0]} labTitle={num[1]} discTitle={num[2]} attend={num[3]} sol={num[4]} />
         ))}
       </div>
     </>
