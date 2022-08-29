@@ -60,8 +60,8 @@ export default function Nav() {
         </p>
         <p className="times">
           {" "}
-          <b>Office Hours: </b>
-          <b>TBD</b>{" "}
+          <b>OH: </b>
+          Th 12:00-1:00PM @ <b>Warren 105</b>{" "}
         </p>
       </div>
     </div>
