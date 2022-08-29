@@ -13,7 +13,7 @@ export default function Body() {
         </div>
         <div className="container">
           <div className="week-div">
-            {/* <Week
+            <Week
               num="02"
               mStart="8"
               dStart="29"
@@ -24,11 +24,11 @@ export default function Body() {
                   "01",
                   "Functions, Control",
                   "Functions, Control, Environment Diagram",
-                  [true, true],
+                  [false, true],
                   [false, false],
                 ],
               ]}
-            /> */}
+            />
             <Week
               num="01"
               mStart="8"

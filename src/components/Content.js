@@ -7,8 +7,8 @@ const links = {
   disc: "https://cs61a.org/disc/",
   lab: "https://cs61a.org/lab/",
   slides: `https://slides.aditbala.com/${year}/`,
-  attendanceDisc: "https://tinyurl.com/adit-disc",
-  attendanceLab: "https://tinyurl.com/adit-lab",
+  attendanceDisc: "https://links.aditbala.com/disc",
+  attendanceLab: "https://links.aditbala.com/lab",
 };
 
 export default function Content({ num, labTitle, discTitle, attend, sol }) {
