@@ -24,7 +24,7 @@ export default function Body() {
                   "01",
                   "Functions, Control",
                   "Functions, Control, Environment Diagram",
-                  [false, true],
+                  [true, true],
                   [false, false],
                 ],
               ]}
