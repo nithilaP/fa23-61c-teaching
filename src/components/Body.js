@@ -24,7 +24,7 @@ export default function Body() {
                   "02",
                   "Higher-Order Functions, Lambda Expressions",
                   "Environment Diagrams, Higher-Order Functions",
-                  [false, true],
+                  [true, true],
                   [false, false],
                 ],
               ]}
