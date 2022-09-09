@@ -7,7 +7,7 @@ export default function Announcements() {
       <div className="title-div">
         <h1 className="title"> Announcements </h1>
       </div>
-      <p className="announcements">Read <a href="https://edstem.org/us/courses/25379/discussion/1739561">Midterm Logistics Post</a></p>
+      <p className="announcements">Good Luck on the Midterm!!! ᕙ(`▿´)ᕗ</p>
     </div>
   );
 }

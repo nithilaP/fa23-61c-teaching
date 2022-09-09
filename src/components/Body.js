@@ -14,6 +14,22 @@ export default function Body() {
         <div className="container">
           <div className="week-div">
           <Week
+              num="04"
+              mStart="9"
+              dStart="12"
+              mEnd="9"
+              dEnd="16"
+              content={[
+                [
+                  "03",
+                  "Midterm Review (Optional)",
+                  "Recursion",
+                  [false, true],
+                  [false, false],
+                ],
+              ]}
+            />
+          <Week
               num="03"
               mStart="9"
               dStart="2"

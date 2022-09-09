@@ -11,6 +11,8 @@ const links = {
   attendanceLab: "https://links.aditbala.com/lab",
 };
 
+const skip = ['00', '03']
+
 export default function Content({ num, labTitle, discTitle, attend, sol }) {
   return (
     <>
@@ -19,7 +21,7 @@ export default function Content({ num, labTitle, discTitle, attend, sol }) {
           <p className="week">
             lab {num}: {labTitle}
           </p>
-          {num != `00` && (<a
+          {num in skip && (<a
             href={links.attendanceLab + `${num}`}
             target="_blank"
             className="button slides"
