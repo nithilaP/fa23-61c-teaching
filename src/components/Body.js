@@ -25,7 +25,7 @@ export default function Body() {
                   "Midterm Review (Optional)",
                   "Recursion",
                   [false, true],
-                  [false, false],
+                  [false, true],
                 ],
               ]}
             />
@@ -38,10 +38,10 @@ export default function Body() {
               content={[
                 [
                   "02",
-                  "Higher-Order Functions, Lambda Expressions",
-                  "Environment Diagrams, Higher-Order Functions",
+                  "HOFs, Lambda Expressions",
+                  "Environment Diagrams, HOFs",
                   [true, true],
-                  [false, false],
+                  [true, true],
                 ],
               ]}
             />
