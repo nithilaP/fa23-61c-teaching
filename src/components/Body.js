@@ -25,7 +25,7 @@ export default function Body() {
                   "Midterm Review (Optional)",
                   "Recursion",
                   [true, true],
-                  [false, true],
+                  [true, true],
                 ],
               ]}
             />

@@ -61,7 +61,7 @@ export default function Nav() {
         <p className="times">
           {" "}
           <b>OH: </b>
-          Th 12:00-1:00PM @ <b>Warren 105</b>{" "}
+          <b>sporadic</b>{" "}
         </p>
       </div>
     </div>
