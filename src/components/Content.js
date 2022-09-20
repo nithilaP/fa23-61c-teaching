@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Body.css";
 
-const year = "fa22"
+const year = "fa22";
 
 const links = {
   disc: "https://cs61a.org/disc/",
@@ -11,7 +11,7 @@ const links = {
   attendanceLab: "https://links.aditbala.com/lab",
 };
 
-const skip = ['00', '03']
+const skip = ["00", "03"];
 
 export default function Content({ num, labTitle, discTitle, attend, sol }) {
   return (
@@ -21,15 +21,17 @@ export default function Content({ num, labTitle, discTitle, attend, sol }) {
           <p className="week">
             lab {num}: {labTitle}
           </p>
-          {num in skip && (<a
-            href={links.attendanceLab + `${num}`}
-            target="_blank"
-            className="button slides"
-            rel="noreferrer"
-          >
-            {" "}
-            attendance{" "}
-          </a>)}
+          {!skip.includes(num) && (
+            <a
+              href={links.attendanceLab + `${num}`}
+              target="_blank"
+              className="button slides"
+              rel="noreferrer"
+            >
+              {" "}
+              attendance{" "}
+            </a>
+          )}
 
           <a
             href={links.lab + `lab${num}`}
@@ -54,42 +56,42 @@ export default function Content({ num, labTitle, discTitle, attend, sol }) {
       )}
       {attend[0] && (
         <div className="wrapper">
-        <p className="week">
-          {" "}
-          disc {num}: {discTitle}{" "}
-        </p>
+          <p className="week">
+            {" "}
+            disc {num}: {discTitle}{" "}
+          </p>
 
-        <a
-          href={links.attendanceDisc + `${num}`}
-          target="_blank"
-          className="button slides"
-          rel="noreferrer"
-        >
-          {" "}
-          attendance{" "}
-        </a>
-
-        <a
-          href={links.disc + `disc${num}`}
-          target="_blank"
-          className="button"
-          rel="noreferrer"
-        >
-          {" "}
-          assignment{" "}
-        </a>
-        {sol[0] && (
           <a
-            href={links.disc + `sol-disc${num}`}
+            href={links.attendanceDisc + `${num}`}
             target="_blank"
             className="button slides"
             rel="noreferrer"
           >
             {" "}
-            solution{" "}
+            attendance{" "}
           </a>
-        )}
-      </div>
+
+          <a
+            href={links.disc + `disc${num}`}
+            target="_blank"
+            className="button"
+            rel="noreferrer"
+          >
+            {" "}
+            assignment{" "}
+          </a>
+          {sol[0] && (
+            <a
+              href={links.disc + `sol-disc${num}`}
+              target="_blank"
+              className="button slides"
+              rel="noreferrer"
+            >
+              {" "}
+              solution{" "}
+            </a>
+          )}
+        </div>
       )}
       <div className="wrapper">
         <p className="week"> slides {num}: </p>
