@@ -1,3 +1,3 @@
 # Teaching
 
-A centralized website for all my teaching resources (slides, other logistical stuff ...)
+A modular website to centralize all my teaching resources (slides, attendance, other logistical information...)
