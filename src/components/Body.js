@@ -24,7 +24,7 @@ export default function Body() {
                   "04",
                   "Recursion, Tree Recursion, Python Lists",
                   "Tree Recursion, Python Lists, Sequences",
-                  [false, true],
+                  [true, true],
                   [false, false],
                 ],
               ]}
