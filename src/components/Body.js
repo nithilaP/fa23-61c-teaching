@@ -13,6 +13,22 @@ export default function Body() {
         </div>
         <div className="container">
           <div className="week-div">
+          <Week
+              num="06"
+              mStart="9"
+              dStart="26"
+              mEnd="9"
+              dEnd="30"
+              content={[
+                [
+                  "05",
+                  "Trees, Data Abstraction, Python Lists",
+                  "Data Abstraction, Trees, Sequences",
+                  [false, true],
+                  [false, false],
+                ],
+              ]}
+            />
             <Week
               num="05"
               mStart="9"
