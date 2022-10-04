@@ -14,6 +14,22 @@ export default function Body() {
         <div className="container">
           <div className="week-div">
           <Week
+              num="07"
+              mStart="10"
+              dStart="3"
+              mEnd="10"
+              dEnd="7"
+              content={[
+                [
+                  "06",
+                  "Mutability, Iterators",
+                  "Mutability, Iterators, Generators",
+                  [false, true],
+                  [false, false],
+                ],
+              ]}
+            />
+          <Week
               num="06"
               mStart="9"
               dStart="26"
@@ -24,8 +40,8 @@ export default function Body() {
                   "05",
                   "Trees, Data Abstraction, Python Lists",
                   "Data Abstraction, Trees, Sequences",
-                  [false, true],
-                  [false, false],
+                  [true, true],
+                  [true, true],
                 ],
               ]}
             />
