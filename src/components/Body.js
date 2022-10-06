@@ -24,7 +24,7 @@ export default function Body() {
                   "06",
                   "Mutability, Iterators",
                   "Mutability, Iterators, Generators",
-                  [false, true],
+                  [true, true],
                   [false, false],
                 ],
               ]}
