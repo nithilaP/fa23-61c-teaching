@@ -24,7 +24,7 @@ export default function Body() {
                   "07",
                   "Object-Oriented Programming",
                   "OOP, String Representation",
-                  [false, true],
+                  [true, true],
                   [false, false],
                 ],
               ]}
