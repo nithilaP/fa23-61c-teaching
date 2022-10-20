@@ -14,6 +14,22 @@ export default function Body() {
         <div className="container">
           <div className="week-div">
           <Week
+              num="09"
+              mStart="10"
+              dStart="17"
+              mEnd="10"
+              dEnd="21"
+              content={[
+                [
+                  "08",
+                  "Linked Lists, Mutable Trees",
+                  "Mutable Trees, Linked Lists, Efficiency",
+                  [true, true],
+                  [false, false],
+                ],
+              ]}
+          />
+          <Week
               num="08"
               mStart="10"
               dStart="10"
@@ -25,7 +41,7 @@ export default function Body() {
                   "Object-Oriented Programming",
                   "OOP, String Representation",
                   [true, true],
-                  [false, false],
+                  [true, true],
                 ],
               ]}
             />
