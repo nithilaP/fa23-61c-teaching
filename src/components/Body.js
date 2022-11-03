@@ -14,6 +14,38 @@ export default function Body() {
         <div className="container">
           <div className="week-div">
           <Week
+              num="11"
+              mStart="10"
+              dStart="31"
+              mEnd="11"
+              dEnd="4"
+              content={[
+                [
+                  "10",
+                  "Scheme, Scheme Lists",
+                  "Scheme, Scheme Lists",
+                  [true, true],
+                  [false, false],
+                ],
+              ]}
+          />
+          <Week
+              num="10"
+              mStart="10"
+              dStart="24"
+              mEnd="10"
+              dEnd="28"
+              content={[
+                [
+                  "09",
+                  "Midterm Review (Optional)",
+                  "Midterm Review (Optional)",
+                  [false, true],
+                  [false, true],
+                ],
+              ]}
+          />
+          <Week
               num="09"
               mStart="10"
               dStart="17"
@@ -25,7 +57,7 @@ export default function Body() {
                   "Linked Lists, Mutable Trees",
                   "Mutable Trees, Linked Lists, Efficiency",
                   [true, true],
-                  [false, false],
+                  [true, true],
                 ],
               ]}
           />
