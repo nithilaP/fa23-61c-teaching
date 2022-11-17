@@ -14,6 +14,22 @@ export default function Body() {
         <div className="container">
           <div className="week-div">
           <Week
+              num="13"
+              mStart="11"
+              dStart="14"
+              mEnd="11"
+              dEnd="18"
+              content={[
+                [
+                  "12",
+                  "Macros",
+                  "Macros, Tail Calls",
+                  [true, true],
+                  [false, false],
+                ],
+              ]}
+          />
+          <Week
               num="12"
               mStart="11"
               dStart="7"
@@ -25,7 +41,7 @@ export default function Body() {
                   "Interpreters (Optional)",
                   "Programs as Data",
                   [true, true],
-                  [false, false],
+                  [true, true],
                 ],
               ]}
           />
