@@ -14,6 +14,22 @@ export default function Body() {
         <div className="container">
           <div className="week-div">
           <Week
+              num="15"
+              mStart="11"
+              dStart="28"
+              mEnd="12"
+              dEnd="2"
+              content={[
+                [
+                  "13",
+                  "SQL (Optional)",
+                  "Final Review (Optional)",
+                  [false, true],
+                  [false, false],
+                ],
+              ]}
+          />
+          <Week
               num="13"
               mStart="11"
               dStart="14"
@@ -34,7 +50,7 @@ export default function Body() {
               mStart="11"
               dStart="7"
               mEnd="11"
-              dEnd="15"
+              dEnd="11"
               content={[
                 [
                   "11",
