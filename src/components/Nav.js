@@ -30,7 +30,7 @@ export default function Nav() {
         <div className="link-div">
           <a
             className="link"
-            href="https://drive.google.com/drive/folders/1YGdcXJLkpMjNXm6imcntrqgBgg1L3w6s?usp=sharing"
+            href="https://www.youtube.com/watch?v=bTS9XaoQ6mg"
             target="_blank"
             rel="noreferrer"
           >
@@ -62,16 +62,16 @@ export default function Nav() {
       <div className="times-container">
         <p className="times">
           {" "}
-          <b>Lab:</b> Tu 2:00-3:30PM @ <b>Soda 271</b>{" "}
+          <b>Lab:</b> TBD @ <b> TBD</b>{" "}
         </p>
         <p className="times">
           {" "}
-          <b>Disc: </b>Th 2:00-3:30PM @ <b>Soda 405</b>{" "}
+          <b>Disc: </b> TBD @ <b> TBD</b>{" "}
         </p>
         <p className="times">
           {" "}
           <b>OH: </b>
-          Tu 7:00-8:00PM @ <b>Warren 101B</b>{" "}
+           TBD @ <b> TBD</b>{" "}
         </p>
       </div>
     </div>

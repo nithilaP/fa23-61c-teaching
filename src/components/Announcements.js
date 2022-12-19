@@ -9,14 +9,7 @@ export default function Announcements() {
       </div>
       <p className="announcements">
         {" "}
-        Yo, check this{" "}
-        <a
-          href="https://edstem.org/us/courses/25379/discussion/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          out
-        </a>
+        yo, you're here kinda early...
       </p>
     </div>
   );
