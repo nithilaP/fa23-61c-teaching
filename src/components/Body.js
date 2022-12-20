@@ -1,5 +1,4 @@
 import React from "react";
-import Week from "./Week";
 import "../styles/Body.css";
 import Announcements from "./Announcements";
 

@@ -3,7 +3,6 @@ import Content from "./Content";
 import "../styles/Body.css";
 
 export default function Week({ num, mStart, mEnd, dStart, dEnd, content }) {
-  console.log(content);
   return (
     <>
       <p className="current-week">
