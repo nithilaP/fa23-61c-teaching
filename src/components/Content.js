@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Body.css";
 
-const year = "fa22";
+const year = "sp23";
 
 const links = {
   disc: "https://cs61a.org/disc/",
@@ -16,7 +16,7 @@ const skip = ["00", "03"];
 export default function Content({ num, labTitle, discTitle, attend, sol }) {
   return (
     <>
-      {attend[1] && (
+      {attend[0] && (
         <div className="wrapper">
           <p className="week">
             lab {num}: {labTitle}
@@ -41,7 +41,7 @@ export default function Content({ num, labTitle, discTitle, attend, sol }) {
           >
             assignment{" "}
           </a>
-          {sol[1] && (
+          {sol[0] && (
             <a
               href={links.lab + `sol-lab${num}`}
               target="_blank"
@@ -54,7 +54,7 @@ export default function Content({ num, labTitle, discTitle, attend, sol }) {
           )}
         </div>
       )}
-      {attend[0] && (
+      {attend[1] && (
         <div className="wrapper">
           <p className="week">
             {" "}
@@ -80,7 +80,7 @@ export default function Content({ num, labTitle, discTitle, attend, sol }) {
             {" "}
             assignment{" "}
           </a>
-          {sol[0] && (
+          {sol[1] && (
             <a
               href={links.disc + `sol-disc${num}`}
               target="_blank"

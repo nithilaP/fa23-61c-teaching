@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Body.css";
 import Announcements from "./Announcements";
+import Week from "./Week";
 
 export default function Body() {
   return (
@@ -12,7 +13,20 @@ export default function Body() {
         </div>
         <div className="container">
           <div className="week-div">
-      
+            <Week
+              num="1"
+              mStart="1"
+              dStart="18"
+              mEnd="1"
+              dEnd="20"
+              content={{
+                num: "00",
+                lt: "Getting Started",
+                dt: "Getting Started",
+                at: [true, true],
+                sol: [false, false],
+              }}
+            />
           </div>
         </div>
       </div>

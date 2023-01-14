@@ -62,11 +62,11 @@ export default function Nav() {
       <div className="times-container">
         <p className="times">
           {" "}
-          <b>Lab:</b> TBD @ <b> TBD</b>{" "}
+          <b>Lab:</b> Tu 3:30 - 5:00 PM @ <b> SODA 271</b>{" "}
         </p>
         <p className="times">
           {" "}
-          <b>Disc: </b> TBD @ <b> TBD</b>{" "}
+          <b>Disc: </b> Th 3:30 - 5:00 PM @ <b> SODA 320</b>{" "}
         </p>
         <p className="times">
           {" "}
