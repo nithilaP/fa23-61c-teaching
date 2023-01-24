@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import Body from "./Body";
 
 function Main() {
+
   return (
     <div className="page">
       <Nav></Nav>
