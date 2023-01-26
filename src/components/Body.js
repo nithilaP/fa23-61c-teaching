@@ -13,6 +13,20 @@ export default function Body() {
         </div>
         <div className="container">
           <div className="week-div">
+          <Week
+              num="2"
+              mStart="1"
+              dStart="23"
+              mEnd="1"
+              dEnd="27"
+              content={{
+                num: "01",
+                lt: "Functions, Control",
+                dt: "Control, Environment Diagrams",
+                at: [true, true],
+                sol: [false, false],
+              }}
+            />
             <Week
               num="1"
               mStart="1"
@@ -24,20 +38,6 @@ export default function Body() {
                 lt: "Getting Started",
                 dt: "Getting Started",
                 at: [true, true],
-                sol: [false, false],
-              }}
-            />
-            <Week
-              num="2"
-              mStart="1"
-              dStart="23"
-              mEnd="1"
-              dEnd="27"
-              content={{
-                num: "01",
-                lt: "Functions, Control",
-                dt: "Control, Environment Diagrams",
-                at: [true, false],
                 sol: [false, false],
               }}
             />
