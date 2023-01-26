@@ -13,7 +13,7 @@ export default function Body() {
         </div>
         <div className="container">
           <div className="week-div">
-          <Week
+            <Week
               num="2"
               mStart="1"
               dStart="23"

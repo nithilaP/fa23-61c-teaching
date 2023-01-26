@@ -9,7 +9,7 @@ export default function Announcements() {
       </div>
       <p className="announcements">
         {" "}
-        yo, you're here kinda early...
+        WELCOME.
       </p>
     </div>
   );
