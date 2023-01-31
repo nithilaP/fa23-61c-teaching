@@ -19,7 +19,7 @@ export default function Content({ num, labTitle, discTitle, attend, sol }) {
       {attend[0] && (
         <div className="wrapper">
           <p className="week">
-            lab {num}: {labTitle}
+            Lab {num}: {labTitle}
           </p>
           {!skip.includes(num) && (
             <a
@@ -58,7 +58,7 @@ export default function Content({ num, labTitle, discTitle, attend, sol }) {
         <div className="wrapper">
           <p className="week">
             {" "}
-            disc {num}: {discTitle}{" "}
+            Disc {num}: {discTitle}{" "}
           </p>
 
           <a
