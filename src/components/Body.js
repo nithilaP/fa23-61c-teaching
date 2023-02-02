@@ -23,7 +23,7 @@ export default function Body() {
                 num: "02",
                 lt: "Higher-Order Functions, Lambda Expressions",
                 dt: "Environment Diagrams, Higher-Order Functions",
-                at: [true, false],
+                at: [true, true],
                 sol: [false, false],
               }}
             />
