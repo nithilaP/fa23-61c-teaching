@@ -34,7 +34,7 @@ export default function Nav() {
         <div className="link-div">
           <a
             className="link"
-            href="https://drive.google.com/drive/folders/1NRurDjbnM0TYAW5NBC6MJVyC60dX-_H9?usp=share_link"
+            href="https://drive.google.com/drive/folders/1NRurDjbnM0TYAW5NBC6MJVyC60dX-_H9?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >

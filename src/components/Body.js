@@ -14,6 +14,20 @@ export default function Body() {
         <div className="container">
           <div className="week-div">
             <Week
+              num="4"
+              mStart="2"
+              dStart="06"
+              mEnd="2"
+              dEnd="10"
+              content={{
+                num: "03",
+                lt: "Recursion",
+                dt: "Recursion",
+                at: [true, false],
+                sol: [false, false],
+              }}
+            />
+            <Week
               num="3"
               mStart="1"
               dStart="30"
@@ -24,7 +38,7 @@ export default function Body() {
                 lt: "Higher-Order Functions, Lambda Expressions",
                 dt: "Environment Diagrams, Higher-Order Functions",
                 at: [true, true],
-                sol: [false, false],
+                sol: [true, true],
               }}
             />
             <Week
