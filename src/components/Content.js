@@ -11,7 +11,7 @@ const links = {
   attendanceLab: "https://links.aditbala.com/lab",
 };
 
-const skip = ["00", "03"];
+const skip = ["00"];
 
 export default function Content({ num, labTitle, discTitle, attend, sol }) {
   return (
@@ -23,7 +23,7 @@ export default function Content({ num, labTitle, discTitle, attend, sol }) {
           </p>
           {!skip.includes(num) && (
             <a
-              href={links.attendanceLab + `${num}`}
+              href={links.attendanceLab}
               target="_blank"
               className="button slides"
               rel="noreferrer"
