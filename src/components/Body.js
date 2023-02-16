@@ -23,7 +23,7 @@ export default function Body() {
                 num: "04",
                 lt: "Recursion, Tree Recursion, Python Lists ",
                 dt: "Tree Recursion, Python Lists",
-                at: [true, false],
+                at: [true, true],
                 sol: [false, false],
               }}
             />
