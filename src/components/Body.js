@@ -14,6 +14,20 @@ export default function Body() {
         <div className="container">
           <div className="week-div">
             <Week
+              num="6"
+              mStart="2"
+              dStart="20"
+              mEnd="2"
+              dEnd="24"
+              content={{
+                num: "04",
+                lt: "Data Abstraction, Sequences",
+                dt: "Sequences, Data Abstraction, Trees",
+                at: [true, false],
+                sol: [false, false],
+              }}
+            />
+            <Week
               num="5"
               mStart="2"
               dStart="13"
@@ -24,7 +38,7 @@ export default function Body() {
                 lt: "Recursion, Tree Recursion, Python Lists ",
                 dt: "Tree Recursion, Python Lists",
                 at: [true, true],
-                sol: [false, false],
+                sol: [true, true],
               }}
             />
             <Week
