@@ -20,10 +20,10 @@ export default function Body() {
               mEnd="2"
               dEnd="24"
               content={{
-                num: "04",
+                num: "05",
                 lt: "Data Abstraction, Sequences",
-                dt: "Sequences, Data Abstraction, Trees",
-                at: [true, false],
+                dt: "Trees",
+                at: [true, true],
                 sol: [false, false],
               }}
             />
