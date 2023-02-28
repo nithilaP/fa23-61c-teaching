@@ -14,6 +14,20 @@ export default function Body() {
         <div className="container">
           <div className="week-div">
             <Week
+              num="7"
+              mStart="2"
+              dStart="27"
+              mEnd="3"
+              dEnd="03"
+              content={{
+                num: "06",
+                lt: "Mutability, Iterators, Generators",
+                dt: "Mutability, Iterators",
+                at: [true, false],
+                sol: [false, false],
+              }}
+            />
+            <Week
               num="6"
               mStart="2"
               dStart="20"
@@ -24,7 +38,7 @@ export default function Body() {
                 lt: "Data Abstraction, Sequences",
                 dt: "Trees",
                 at: [true, true],
-                sol: [false, false],
+                sol: [true, true],
               }}
             />
             <Week
