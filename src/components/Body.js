@@ -23,7 +23,7 @@ export default function Body() {
                 num: "06",
                 lt: "Mutability, Iterators, Generators",
                 dt: "Mutability, Iterators",
-                at: [true, false],
+                at: [true, true],
                 sol: [false, false],
               }}
             />
