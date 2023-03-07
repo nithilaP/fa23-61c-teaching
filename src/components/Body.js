@@ -14,6 +14,20 @@ export default function Body() {
         <div className="container">
           <div className="week-div">
             <Week
+              num="8"
+              mStart="3"
+              dStart="06"
+              mEnd="3"
+              dEnd="10"
+              content={{
+                num: "07",
+                lt: "Object-Oriented Programming",
+                dt: "Object-Oriented Programming",
+                at: [true, true],
+                sol: [false, false],
+              }}
+            />
+            <Week
               num="7"
               mStart="2"
               dStart="27"
@@ -24,7 +38,7 @@ export default function Body() {
                 lt: "Mutability, Iterators, Generators",
                 dt: "Mutability, Iterators",
                 at: [true, true],
-                sol: [false, false],
+                sol: [true, true],
               }}
             />
             <Week
