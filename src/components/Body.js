@@ -14,6 +14,20 @@ export default function Body() {
         <div className="container">
           <div className="week-div">
             <Week
+              num="9"
+              mStart="3"
+              dStart="13"
+              mEnd="3"
+              dEnd="17"
+              content={{
+                num: "07",
+                lt: "OOP, Inheritance",
+                dt: "OOP, Inheritance, Str/Repr",
+                at: [true, true],
+                sol: [false, false],
+              }}
+            />
+            <Week
               num="8"
               mStart="3"
               dStart="06"
@@ -24,7 +38,7 @@ export default function Body() {
                 lt: "Object-Oriented Programming",
                 dt: "Object-Oriented Programming",
                 at: [true, true],
-                sol: [false, false],
+                sol: [true, true],
               }}
             />
             <Week
