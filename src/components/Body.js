@@ -13,6 +13,34 @@ export default function Body() {
         </div>
         <div className="container">
           <div className="week-div">
+          <Week
+              num="13"
+              mStart="4"
+              dStart="10"
+              mEnd="4"
+              dEnd="14"
+              content={{
+                num: "11",
+                lt: "Scheme",
+                dt: "Scheme, Scheme Lists",
+                at: [true, true],
+                sol: [false, false],
+              }}
+            />
+            <Week
+              num="10"
+              mStart="3"
+              dStart="20"
+              mEnd="3"
+              dEnd="24"
+              content={{
+                num: "09",
+                lt: "Mutable Trees, Efficiency",
+                dt: "Mutable Trees, Linked Lists, Efficiency",
+                at: [true, false],
+                sol: [false, false],
+              }}
+            />
             <Week
               num="9"
               mStart="3"
@@ -20,11 +48,11 @@ export default function Body() {
               mEnd="3"
               dEnd="17"
               content={{
-                num: "07",
+                num: "08",
                 lt: "OOP, Inheritance",
                 dt: "OOP, Inheritance, Str/Repr",
                 at: [true, true],
-                sol: [false, false],
+                sol: [true, true],
               }}
             />
             <Week
