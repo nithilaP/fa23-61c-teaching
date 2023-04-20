@@ -14,6 +14,20 @@ export default function Body() {
         <div className="container">
           <div className="week-div">
           <Week
+              num="14"
+              mStart="4"
+              dStart="17"
+              mEnd="4"
+              dEnd="21"
+              content={{
+                num: "12",
+                lt: "Scheme Lists, Interpreters",
+                dt: "Interpreters, SQL",
+                at: [true, true],
+                sol: [false, false],
+              }}
+            />
+          <Week
               num="13"
               mStart="4"
               dStart="10"
@@ -24,7 +38,7 @@ export default function Body() {
                 lt: "Scheme",
                 dt: "Scheme, Scheme Lists",
                 at: [true, true],
-                sol: [false, false],
+                sol: [true, true],
               }}
             />
             <Week
