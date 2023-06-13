@@ -1,0 +1,83 @@
+.body-container { 
+    margin-left: 42px;
+    margin-top: 30px;
+    width: 700px;  
+}
+
+.announcements-container {
+    
+}
+
+.container {
+}
+
+.title_div {
+    
+}
+
+
+.announcements {
+    margin-bottom: 20px;
+}
+
+.week {
+    font-size: 16px;
+    font-weight: 400;
+    color: #888;
+    margin-top: 18px;
+    width: 115px;
+}
+
+.wrapper {
+    margin-bottom: 10px;
+}
+
+.btn_arrow {
+    font-size: 14px;
+    margin-left: 6px;
+    margin-bottom: 20px;
+}
+
+.button {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 6px 14px;
+    line-height: 1;
+    border: 1px;
+    border-radius: 0px;
+    font-weight: 400;
+    font-size: 10pt;
+    text-align:center;
+    transition: all 0.2s;
+    align-items: center;
+}
+
+.slides_button {
+    background: #000;
+    color: #fff;
+}
+
+.slides_button:hover {
+    background: #444;
+    border: #555;
+}
+
+.worksheet_button {
+    background: #fff;
+    color: #000;
+    border: none;
+}
+
+.worksheet_button:hover  {
+    background: #eee;
+    color: #000;
+    border: #ddd;
+}
+
+.btn_label {
+    margin-right: 6px;
+}
+
+
+

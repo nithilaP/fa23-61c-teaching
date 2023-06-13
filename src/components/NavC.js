@@ -60,11 +60,12 @@ export default function Nav() {
         </p> */}
         <p className="times">
           {" "}
-          <b>Disc: </b> Th 3:30 - 5:00 PM @ <b> SODA 320</b>{" "}
+          <b>Discussion: </b>
+           TBD @ <b> TBD</b>{" "}
         </p>
         <p className="times">
           {" "}
-          <b>OH: </b>
+          <b>Office Hours: </b>
            TBD @ <b> TBD</b>{" "}
         </p>
       </div>
