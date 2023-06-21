@@ -40,7 +40,7 @@ function Main() {
                   </svg>
                 </a>
                 <a
-                  href={`https://cs61c.org/sp23/discussions/disc${
+                  href={`https://cs61c.org/su23/discussions/disc${
                     i < 10 ? `0` + i : { i }
                   }`}
                   target="_blank"
