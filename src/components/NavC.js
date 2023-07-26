@@ -34,6 +34,16 @@ export default function Nav() {
         <div className="link-div">
           <a
             className="link"
+            href="https://links.cs61c.org/su23-disc"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Attendance
+          </a>
+        </div>
+        <div className="link-div">
+          <a
+            className="link"
             href="https://docs.google.com/forms/d/e/1FAIpQLSefWVPJbJdIx-04gaA_fNsMvUo6Nw6cZ5U8P5AopHfdND4iEg/viewform"
             target="_blank"
             rel="noreferrer"

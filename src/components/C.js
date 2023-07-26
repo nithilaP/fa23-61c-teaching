@@ -5,7 +5,7 @@ import "../styles/C.css";
 function Main() {
   return (
     <div className="page">
-      <NavC/>
+      <NavC />
       <div className="body-container">
         <div className="announcements-container">
           <div className="title-div">
@@ -19,7 +19,7 @@ function Main() {
                 <p className="week">{`Discussion ${i < 10 ? `0` + i : i}: `}</p>
                 <a
                   href={`https://slides.aditbala.com/61c/su23/disc${
-                    i < 10 ? `0` + i : { i }
+                    i < 10 ? `0` + i : i
                   }`}
                   target="_blank"
                   className="button slides_button"
@@ -41,7 +41,7 @@ function Main() {
                 </a>
                 <a
                   href={`https://cs61c.org/su23/discussions/disc${
-                    i < 10 ? `0` + i : { i }
+                    i < 10 ? `0` + i : i 
                   }`}
                   target="_blank"
                   className="button worksheet_button"
