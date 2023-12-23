@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/Body.css";
 
-const year = "sp23";
+const year = "sp24";
 
 const links = {
-  disc: "https://cs61a.org/disc/",
-  lab: "https://cs61a.org/lab/",
+  disc: "https://cs61c.org/disc/",
+  lab: "https://cs61c.org/lab/",
   slides: `https://slides.aditbala.com/${year}/`,
   attendanceDisc: "https://links.aditbala.com/disc",
   attendanceLab: "https://links.aditbala.com/lab",
